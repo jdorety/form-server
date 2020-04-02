@@ -1,1 +1,1 @@
-web: gunicorn forms_server.wsgi:application --log-file -
+web: gunicorn forms_server.application --log-file -
