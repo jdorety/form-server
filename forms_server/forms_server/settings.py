@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'forms_server.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('NAME') or None,
+        'NAME': config('NAME'),
         # 'USER': config('USER'),
         # 'PASSWORD': config('PASSWORD'),
         'HOST': config('DATABASE_URL')
